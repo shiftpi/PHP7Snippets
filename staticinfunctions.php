@@ -8,7 +8,7 @@ function test() {
   
   static $a;
   echo "static \$a: " . var_export($a, true) . PHP_EOL;
-  3
+
   $a++;
   echo "\$a++: $a" . PHP_EOL;
   
@@ -27,4 +27,4 @@ test();
 test();
 test();
 
-echo "$a, $b";
+echo "$a, $b";                          // 8, 9

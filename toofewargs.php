@@ -3,5 +3,5 @@ function f($a)
 {
 }
 
-// f();                 // Fatal Error since PHP7.1
-substr('abc');          // Still a warning
+substr('abc');       // Still a warning
+f();                 // but fatal error since PHP7.1
